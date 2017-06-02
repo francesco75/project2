@@ -10,17 +10,21 @@ MONGODB_PORT = 27017
 DBS_NAME = 'donorsUSA'
 COLLECTION_NAME = 'projects'
 
+
 @app.route('/')
 def index():
     return render_template('index.html')
+
 
 @app.route('/statistics')
 def statistics():
     return render_template('statistics.html')
 
+
 @app.route('/program')
 def program():
     return render_template('program.html')
+
 
 @app.route("/donorsUS/projects")
 def donor_projects():
@@ -34,7 +38,7 @@ def donor_projects():
         '_id': False, 'funding_status': True, 'school_state': True,
         'resource_type': True, 'poverty_level': True,
         'date_posted': True, 'total_donations': True,
-        'school_city': True, 'primary_focus_area' :True, 'grade_level' : True
+        'school_city': True, 'primary_focus_area': True, 'grade_level': True
     }
 
     # Open a connection to MongoDB using a with statement such that the
@@ -48,7 +52,6 @@ def donor_projects():
 
         # Convert projects to a list in a JSON object and return the JSON data
         return json.dumps(list(projects))
-
 
 
 if __name__ == "__main__":

@@ -16,7 +16,6 @@ oauthlib==2.0.1
 pandas==0.19.2
 pandas-datareader==0.3.0.post0
 prettytable==0.7.2
-pygame==1.9.1
 pymongo==3.4.0
 pyparsing==2.1.10
 python-dateutil==2.6.0
