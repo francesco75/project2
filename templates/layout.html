@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for ('static',
+         filename='lib/css/bootstrap.min.css')}}">
+   <link rel="stylesheet" href="{{ url_for ('static',
+         filename='lib/css/keen-dashboards.css')}}">
+   <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/dc.css')}}">
+   <link rel="stylesheet" href="{{ url_for ('static', filename='css/custom.css')}}">
+<link rel="stylesheet" href="{{ url_for ('static', filename='css/introjs.css')}}">
+
+</head>
+<body class="application">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class='container'>
+        <div class=" navbar-header">
+          <a class="navbar-brand" href="{{ url_for('index') }}">Election Governor New York</a>
+        </div>
+                <ul  class="nav navbar-nav navbar-right  ">
+                           <li><a href="{{ url_for('index') }}">Home</a></li>
+                    <li><a href="{{ url_for('statistics') }}">Lack of Funding</a></li>
+       <li><a href="{{ url_for('program') }}">MY Program</a></li>
+
+
+                    </ul>
+        </div>
+  </nav>
+
+   {% block content %}
+thii is the layout
+   {% endblock %}
+
+
+</body>
+<script src="{{ url_for ('static', filename='lib/js/jquery.min.js')}}"></script>
+<script src="{{ url_for ('static', filename='js/dj_button.js')}}"></script>
+<script src="{{ url_for ('static', filename='lib/js/bootstrap.min.js')}}"></script>
+<script src="{{ url_for ('static', filename='lib/js/crossfilter.js')}}"></script>
+<script src="{{ url_for ('static', filename='lib/js/d3.js')}}"></script>
+<script src="{{ url_for ('static', filename='lib/js/dc.js')}}"></script>
+<script src="{{ url_for ('static', filename='lib/js/queue.js')}}"></script>
+<script src="{{ url_for ('static', filename='lib/js/keen.min.js')}}"></script>
+<script src="{{ url_for ('static', filename='js/graphic.js')}}" type="text/javascript"></script>
+<script src="{{ url_for ('static', filename='js/graph.js')}}" type="text/javascript"></script>
+<script src="{{ url_for ('static', filename='js/intro.js')}}" type="text/javascript"></script>
+
+
+</html>
