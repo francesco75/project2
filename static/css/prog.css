@@ -1,0 +1,18 @@
+/* Style all pages */
+footer{
+       text-align:center;
+       background:white;
+}
+.para1{
+      background:white;
+      padding:5px;
+      }
+
+p,h1,h2,h3{
+      background:white;
+      border-radius:10%;
+      padding:10px;
+}
+h2,h3{
+         text-align:center;
+         }

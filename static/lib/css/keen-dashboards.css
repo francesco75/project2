@@ -26,7 +26,6 @@ body.application hr {
 }
 
 
-
 .navbar-inverse {
   background-color: #3d4a57;
   border-color: #333;
@@ -50,6 +49,7 @@ body.application hr {
   font-weight: 200;
   padding: 7px 10px 4px;
 }
+
 
 .chart-wrapper .chart-stage {
   /*min-height: 240px;*/

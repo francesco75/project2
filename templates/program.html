@@ -1,49 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
 
-<style>
-
-footer{
-       text-align:center;
-       background:white;
-}
-
-p,h1,h2,h3{
-      background:white;
-      border-radius:10%;
-      padding:10px;
-}
-h2,h3{
-         text-align:center;
-         }
-
-
-
-</style>
-</head>
-
-<body class="application">
-<div class ="container">
  {% extends "layout.html" %}
 {% block content %}
-
+<div class ="container">
     <div class="row">
         <div class="col-md-6"><img src="static/images/logostatua.jpg"  width="100%" height="325px"  ></div>
-        <div class="col-md-6"><img src="static/images/myvote.jpg"  width="100%" height="325px"  ></div>
+        <div class="col-md-6"><h1 align="center">The Future<br> is <br>Now</h1></div>
     </div>
     <div class="row">
-         <div class="col-md-4"><img src="static/images/campaign.png" width="65%"></div>
-         <div class="col-md-4"><h1 align="center">Mr. Scollo Francesco</h1>
+         <div class="col-md-8">
              <h2 align="center">My Program</h2>
-             <h3 align="center">The Future is Now</h3>
-             <p>My Project is to invest the donations to improve the New York' Citizen life and decrease the cost of
+             <p>My Program is to invest the donations to improve the New York' Citizen life and decrease the cost of
                  the politic and the poverty, minimize the cost of the  officialism  and improve
                  the research of the University and School(libraries,books,Tecnologic).My First Thoughts are for
                  Homeless and Social Care.Human Rights are the most important battles of my Campaign Election.
              </p>
-               <img src="static/images/future.png" width="55%">
          </div>
           <div class="col-md-4"><img src="static/images/voteme.jpg" width="55%"></div>
     </div>
@@ -52,24 +22,26 @@ h2,h3{
         <hr>
     </div>
     <div class="row">
-        <div class="col-md-6"> <h3>Jobs Developemt</h3>
-        <h3>Job</h3>
-        <p>I will invest the donations to improve the quality  each borough.
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading"><b>The Investments</b></div>
+                <div class="panel-body"><p>
+                    <p><b>I will invest the donations to improve the quality of the school for each borough.</b>
             I will help the job centre that  provides information to organizations which helps to determine
-            which employeesare best fit for specific jobs. Through job analysis, the analyst needs to understand
-            what the important tasks of the job are, how they are carried out,
-            and the necessary human qualities needed
-            to complete the job successfully.Helping individuals develop their careers, and also for
+            which employee best fit for specific jobs.
+            Helping individuals develop their careers, and also for
             organizations develop their employees in order to maximize talent.
-            This pieChart will explain the statistic of my job program in the next 5 years.
+                <b>This Pie Chart will explain the  donations investments of my job program in the next 5 years.</b>
         </p>
+                </div>
+            </div>
             <hr>
         </div>
         <div class="col-md-6">
          <div class="chart-wrapper">
                <div class="chart-title">
-                   Economic Situation
-               </div>
+                   Investments Donations
+               </div>                                         <!-- Investments Chart -->
                <div class="chart-stage">
                    <div id="resource-type-pie-chart"></div>
                </div>
@@ -78,23 +50,23 @@ h2,h3{
         </div>
     </div>
     <div class="row">
-    <div class="col-md-6"><h3>School  Education </h3>
-        <h3>Education Art Center</h3>
-        <p>I will invest the donations to have more Art Centre ,libraries, Public School.Music Hall.
-            A multi-use performance space that is intended for use by various types of the performing arts,
-            including dance, music and theatre.
-             The intended multiple use of performing arts centers in this sense differentiates them from
-            single-purpose concert halls, opera houses or theatres,
-            although the actual use of single-purpose spaces for other than their intended use is, of course,
-            widespread.</p>
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading"><b>The  Education</b></div>
+                <div class="panel-body">
+                    <p><b>I will invest the donations to have more Art Centre ,libraries, Public School.Music Hall.</b>
+                          <br>A multi-use performance space that is intended for use by
+                          various types of the performing arts,
+                          including dance, music and theatre.</p>
+                                    </div>
+            </div>
         <hr>
             </div>
 
         <div class="col-md-6">
               <div class="chart-wrapper">
                        <div class="chart-title">
-                           Education Art Centre
-                       </div>
+                           School Education                     <!-- School Education Chart -->
                        <div class="chart-stage">
                            <div id="primary_focus_area_chart"></div>
                        </div>
@@ -103,43 +75,41 @@ h2,h3{
                    </div>
 
         </div>
-
-    <div class="row">
-        <div class="col-md-6"><h3> Quality  of Life </h3>
-        <p>Quality of life (QOL) is the general well-being of individuals and societies,
-            outlining negative and positive features of life. It observes life satisfaction,
-            including everything from physical health, family, education, employment, wealth,
-            religious beliefs, finance and the environment.
-            This  piechart describes the situation in the my program of the Quality of Life.
-        </p>
-            <hr>
-        </div>
-        <div class="col-md-6">
-<div class="chart-wrapper">
-                       <div class="chart-title">
-                           Quality of Life
-                       </div>
-                       <div class="chart-stage">
-                           <div id="grade-type-pie-chart"></div>
-                       </div>
-                   </div>
-
-        </div>
     </div>
+
     <div class="row">
-				<div class="col-md-12"></div>
-			</div>
+        <div class="col-md-6">
+               <div class="panel panel-default">
+                   <div class="panel-heading"><b>The  Grades</b></div>
+                                 <div class="panel-body">
+                                   <p>Quality of life  observes life satisfaction,<br>
+                                       including everything from physical health, family, education, <br>employment, wealth,
+                                religious beliefs, finance and the environment.<br>
+            <b>This  Pie Chart describes the situation of  Quality of Life program.</b>
+            </p>
+
+                              </div>
+                               </div>
+
+        </div>
+                   <div class="col-md-6">
+                      <div class="chart-wrapper">
+                          <div class="chart-title">
+                             Quality of Life
+                           </div>                          <!-- Quatity Chart -->
+                         <div class="chart-stage">
+                            <div id="grade-type-pie-chart"></div>
+                          </div>
+                         </div>
+                   </div>
+    </div>
+
+
+
             <footer class="col-12">
                 <p>Copyright</p>
                     <p>@Scollo Francesco New York 1965/2017</p>
+           </footer>
 
-
-</footer>
-</div>
 
 {% endblock %}
-</div>
-</body>
-
-
-</html>
