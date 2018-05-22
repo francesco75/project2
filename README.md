@@ -61,10 +61,9 @@ I used the chart to show the previous situation and improve the situation.
        Final Testing is good.
        
  - Interner Explorer     
-      - All  the pages work well but only the program.html has the small problem at the end 
-        of the chart but the charts work well. It is a little asymmetrical at the end .
-        The rest of the pages respond well.
-        Final is almost good.
+      - All  the pages and navbar work well  
+        The charts work well. 
+        Final Testing is good
         
  ## Testing Devices
  ### Tech Used : Blisk 
