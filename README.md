@@ -45,6 +45,8 @@ I used the chart to show the previous situation and improve the situation.
          Filter the data
 # Testing
 ## Testing Browser
+ - The Testing Browser tests  the website on the different browser and
+    checks the different like the picture size  and responsive navbar and charts
  - Google Crome:
      - All the pages respond very well and jquery library work very well. 
        The Navigation Bar works perfect.The Charts work well  
@@ -65,8 +67,11 @@ I used the chart to show the previous situation and improve the situation.
         The charts work well. 
         Final Testing is good
         
- ## Testing Devices
+ ## Testing Devices Responsive
  ### Tech Used : Blisk 
+   - This Testing responsive is used to test the website with
+      the different devices and study the navbar reactive and the 
+      charts
    - Phones : 
                All the pages work well and navbar works perfect                 
                The Testing is Good.
@@ -89,4 +94,8 @@ I used the chart to show the previous situation and improve the situation.
               
 ### Deployment
   - GitHub
+      - Initial Deployment: Basic codec 
+      - Connect MongoDb:   Connection Database Mongo Db
+      - Last Deploy : The last changes on the static file
+      - Lastest deployemnet : The last change Readme.Md and templates 
   - Heroku
