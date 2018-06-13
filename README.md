@@ -101,6 +101,6 @@ I used the chart to show the previous situation and improve the situation.
   - Heroku
        - Procfile Windows
        - Procfile
-       - Import the database with file.csv
-       _ push heroku platform
+       - Import the database with file csv.
+       - Push heroku platform
        
