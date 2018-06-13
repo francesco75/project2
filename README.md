@@ -99,3 +99,8 @@ I used the chart to show the previous situation and improve the situation.
       - Last Deploy : The last changes on the static file
       - Lastest deployemnet : The last change Readme.Md and templates 
   - Heroku
+       - Procfile Windows
+       - Procfile
+       - Import the database with file.csv
+       _ push heroku platform
+       
